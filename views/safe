@@ -1,0 +1,11 @@
+<?php
+                                        if($userp['react'] == 0){
+                                    ?>
+                                        <a class="btn btn-light" href="../controller/react.status.controller.php?user_id=<?=$userp['id']?>&&react=1"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></a>
+                                    <?php
+                                        }else{
+                                    ?>
+                                        <a class="btn btn-light" href="../controller/react.status.controller.php?user_id=<?=$userp['id']?>&&react=0"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></a>
+                                    <?php
+                                        }
+                                    ?>
